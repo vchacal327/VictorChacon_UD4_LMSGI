@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!ELEMENT catalogo (libro+)>
 <!ELEMENT libro (titulo, autor, genero, editorial, fecha, ISBN, nPaginas, descripcion)>
 <!ELEMENT titulo (#PCDATA)>
@@ -9,4 +10,17 @@
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT ISBN (#PCDATA)>
 <!ELEMENT nPaginas (#PCDATA)>
+=======
+<!ELEMENT catalogo (libro+)>
+<!ELEMENT libro (titulo, autor, genero, editorial, fecha, ISBN, nPaginas, descripcion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT nPaginas (#PCDATA)>
+>>>>>>> 0a87299c0dc3935e32770aae035525d804cb1bce
 <!ELEMENT descripcion (#PCDATA)>

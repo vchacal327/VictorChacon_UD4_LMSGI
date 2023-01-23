@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="catalogo">
@@ -27,4 +28,35 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="catalogo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libro" maxOccurs="10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="titulo"/>
+              <xs:element name="autor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombre"/>
+                    <xs:element type="xs:string" name="apellidos"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="genero"/>
+              <xs:element type="xs:string" name="editorial"/>
+              <xs:element type="xs:date" name="fecha"/>
+              <xs:element type="xs:string" name="ISBN"/>
+              <xs:element type="xs:integer" name="nPaginas"/>
+              <xs:element type="xs:string" name="descripcion"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+>>>>>>> 0a87299c0dc3935e32770aae035525d804cb1bce
 </xs:schema>
