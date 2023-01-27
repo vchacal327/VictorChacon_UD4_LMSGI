@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Lista.xsd">
+    <turismo>
+        <codCoche>PDMTANBFR64390582</codCoche>
+        <marca>Truffade</marca>
+        <modelo>Z-Type</modelo>
+        <matricula>2674-FXS</matricula>
+        <potencia>135 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>ESCMGKPEG754239101</codCoche>
+        <marca>Grotti</marca>
+        <modelo>Cheetah</modelo>
+        <matricula>1340-LMA</matricula>
+        <potencia>390 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>VAMASFTGN012586313</codCoche>
+        <marca>Annis</marca>
+        <modelo>Elegy RH8</modelo>
+        <matricula>6842-CMV</matricula>
+        <potencia>570 CV</potencia>
+        <plazas>4</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>HRRFAVCAP41263014</codCoche>
+        <marca>Ocelot</marca>
+        <modelo>Virtue</modelo>
+        <matricula>7324-AFN</matricula>
+        <potencia>2000 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>ACVAAZFWM67312795</codCoche>
+        <marca>Obey</marca>
+        <modelo>10F</modelo>
+        <matricula>6216-KOL</matricula>
+        <potencia>610 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>MFGSVTBGJ02156824</codCoche>
+        <marca>Pegassi</marca>
+        <modelo>Torero XO</modelo>
+        <matricula>0995-VWT</matricula>
+        <potencia>814 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>GGKVNMATW12609127</codCoche>
+        <marca>Übermacht</marca>
+        <modelo>Cypher</modelo>
+        <matricula>6423-PZJ</matricula>
+        <potencia>450 CV</potencia>
+        <plazas>4</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>RSWEGLNVY69294511</codCoche>
+        <marca>Pfister</marca>
+        <modelo>Comet S2</modelo>
+        <matricula>9513-LÑX</matricula>
+        <potencia>385 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>BNSDGESUT16249230</codCoche>
+        <marca>Obey</marca>
+        <modelo>Tailgater S</modelo>
+        <matricula>8629-LUA</matricula>
+        <potencia>340 CV</potencia>
+        <plazas>5</plazas>
+        <nPuertas>5</nPuertas>
+    </turismo>
+    <turismo>
+        <codCoche>WFVBSNVDD425692845</codCoche>
+        <marca>Invetero</marca>
+        <modelo>Coquette D10</modelo>
+        <matricula>3623-SYG</matricula>
+        <potencia>495 CV</potencia>
+        <plazas>2</plazas>
+        <nPuertas>2</nPuertas>
+    </turismo>
+</lista>
