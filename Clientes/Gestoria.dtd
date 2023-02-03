@@ -1,0 +1,15 @@
+<!ELEMENT gestoria (alta+)>
+<!ELEMENT alta (sede+, cliente+)>
+<!ELEMENT sede (nombEmpleado, fecha)>
+<!ATTLIST sede codigo ID #REQUIRED>
+    <!ELEMENT nombEmpleado (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cliente (descCliente, numero, vivienda+)>
+<!ATTLIST cliente codigo ID #REQUIRED>
+    <!ELEMENT descCliente (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+<!ELEMENT vivienda (coste, resumen, plazo)>
+<!ATTLIST vivienda ID ID #REQUIRED>
+    <!ELEMENT coste (#PCDATA)>
+    <!ELEMENT resumen (#PCDATA)>
+    <!ELEMENT plazo (#PCDATA)>
