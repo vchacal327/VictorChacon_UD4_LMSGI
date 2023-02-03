@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gestoria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gestoria.xsd">
+    <alta>
+        <sede codigo="SEV-110">
+            <nombEmpleado>Pedro Gómez</nombEmpleado>
+            <fecha>2008-07-11</fecha>
+        </sede>
+        <cliente codigo="AND-45">
+            <descCliente>Solvente</descCliente>
+            <numero>2</numero>
+            <vivienda ID="P001">
+                <coste>50000</coste>
+                <resumen>Edificio en mejorables condiciones, aunque sin peligro.</resumen>
+                <plazo>20</plazo>
+            </vivienda>
+            <vivienda ID="A002">
+                <coste>28000</coste>
+                <resumen>Pequeño apartamento, bien ubicado y limpio.</resumen>
+                <plazo>45</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="CDZ-100">
+            <nombEmpleado>Luisa Romero</nombEmpleado>
+            <fecha>2010-09-17</fecha>
+        </sede>
+        <cliente codigo="AND-731">
+            <descCliente>Insolvente</descCliente>
+            <numero>1</numero>
+            <vivienda ID="C010">
+                <coste>7000</coste>
+                <resumen>Poco espaciosa y muy descuidada.</resumen>
+                <plazo>30</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="HLV-140">
+            <nombEmpleado>Nagore Suárez</nombEmpleado>
+            <fecha>2015-01-24</fecha>
+        </sede>
+        <cliente codigo="AND-548">
+            <descCliente>Solvente</descCliente>
+            <numero>3</numero>
+            <vivienda ID="C011">
+                <coste>70000</coste>
+                <resumen>Problemas con sistema de tuberías, el resto bien.</resumen>
+                <plazo>30</plazo>
+            </vivienda>
+            <vivienda ID="P022">
+                <coste>280000</coste>
+                <resumen>Piso grande con buen cuidado.</resumen>
+                <plazo>90</plazo>
+            </vivienda>
+            <vivienda ID="C044">
+                <coste>145000</coste>
+                <resumen>Casa de campo con piscina.</resumen>
+                <plazo>45</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="MLG-121">
+            <nombEmpleado>José Luis Pérez</nombEmpleado>
+            <fecha>2003-06-23</fecha>
+        </sede>
+        <cliente codigo="AND-090">
+            <descCliente>Solvente</descCliente>
+            <numero>1</numero>
+            <vivienda ID="D072">
+                <coste>100000</coste>
+                <resumen>Dúplex a las afueras de la localidad.</resumen>
+                <plazo>40</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="ALM-150">
+            <nombEmpleado>Ramón Soroya</nombEmpleado>
+            <fecha>2011-04-09</fecha>
+        </sede>
+        <cliente codigo="AND-243">
+            <descCliente>Solvente</descCliente>
+            <numero>1</numero>
+            <vivienda ID="C019">
+                <coste>94000</coste>
+                <resumen>Casa de campo algo descuidada.</resumen>
+                <plazo>30</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="SEV-111">
+            <nombEmpleado>Mónica Naranjo</nombEmpleado>
+            <fecha>2014-12-11</fecha>
+        </sede>
+        <cliente codigo="AND-089">
+            <descCliente>Insolvente</descCliente>
+            <numero>2</numero>
+            <vivienda ID="N017">
+                <coste>5000</coste>
+                <resumen>Pequeño cobertizo con tejado de chapa. En malas condiciones.</resumen>
+                <plazo>20</plazo>
+            </vivienda>
+            <vivienda ID="C081">
+                <coste>24000</coste>
+                <resumen>Casa antigua con peligro de derrumbe.</resumen>
+                <plazo>15</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="GRN-130">
+            <nombEmpleado>Jesús Mario Moreno</nombEmpleado>
+            <fecha>2010-01-30</fecha>
+        </sede>
+        <cliente codigo="AND-098">
+            <descCliente>Solvente</descCliente>
+            <numero>1</numero>
+            <vivienda ID="C005">
+                <coste>187000</coste>
+                <resumen>Casa unifamiliar en perfectas condiciones (nueva).</resumen>
+                <plazo>60</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="MLG-120">
+            <nombEmpleado>Juana María López</nombEmpleado>
+            <fecha>2004-10-27</fecha>
+        </sede>
+        <cliente codigo="AND-035">
+            <descCliente>Solvente</descCliente>
+            <numero>1</numero>
+            <vivienda ID="X097">
+                <coste>360000</coste>
+                <resumen>Chalé adosado no muy espacioso pero confortable.</resumen>
+                <plazo>45</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="CDB-160">
+            <nombEmpleado>Paula Amaya</nombEmpleado>
+            <fecha>2009-11-25</fecha>
+        </sede>
+        <cliente codigo="AND-140">
+            <descCliente>Solvente</descCliente>
+            <numero>2</numero>
+            <vivienda ID="C076">
+                <coste>200000</coste>
+                <resumen>Problema con el cuadro eléctrico.</resumen>
+                <plazo>30</plazo>
+            </vivienda>
+            <vivienda ID="P043">
+                <coste>50000</coste>
+                <resumen>Pequeño piso con 1 habitación.</resumen>
+                <plazo>40</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+    <alta>
+        <sede codigo="JAE-170">
+            <nombEmpleado>Jorge Suleiman</nombEmpleado>
+            <fecha>2014-06-13</fecha>
+        </sede>
+        <cliente codigo="AND-120">
+            <descCliente>Insolvente</descCliente>
+            <numero>1</numero>
+            <vivienda ID="A088">
+                <coste>140000</coste>
+                <resumen>Apartamento estrecho y con múltiples problemas estructurales.</resumen>
+                <plazo>20</plazo>
+            </vivienda>
+        </cliente>
+    </alta>
+</gestoria>
