@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="practicas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumno" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="nif"/>
+                            <xs:element type="xs:string" name="resultado"/>
+                            <xs:element name="observaciones" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element type="xs:integer" name="anhos"/>
+                                        <xs:element type="xs:string" name="poblacion"/>
+                                    </xs:sequence>
+                                </xs:complexType> 
+                            </xs:element>
+                            <xs:choice>
+                            <xs:element type="xs:string" name="ip"/>
+                            <xs:element type="xs:string" name="mac"/>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

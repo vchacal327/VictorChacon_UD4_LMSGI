@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<practicas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="practicas.xsd">
+	<alumno>
+        <nif>95555555K</nif>
+        <resultado>Apto</resultado>
+        <observaciones>Este alumno tiene <anhos>20</anhos>años y vive en <poblacion>Lugo</poblacion></observaciones>
+        <ip>172.168.1.1</ip> <!-- Los alumnos tienen IP o MAC pero no ambas -->
+    </alumno>
+    <alumno>
+        <nif>44444444A</nif>
+        <resultado>No Apto</resultado>
+        <mac>56:FE:45:CA:45:12</mac>
+    </alumno>
+    <alumno>
+        <nif>75555555P</nif>
+        <resultado>Apto</resultado>
+        <observaciones>El alumno tiene <anhos>24</anhos>años y vive en <poblacion>El Rompido</poblacion></observaciones>
+        <mac>DB:88:61:FB:92:77</mac>
+    </alumno>
+    <alumno>
+        <nif>06465270Q</nif>
+        <resultado>No Apto</resultado>
+        <mac>58:91:37:24:11:A4</mac>
+    </alumno>
+    <alumno>
+        <nif>10732640N</nif>
+        <resultado>Apto</resultado>
+        <observaciones>El alumno tiene <anhos>18</anhos>años y vive en <poblacion>Logroño</poblacion></observaciones>
+        <ip>144.160.88.57</ip>
+    </alumno>
+    <alumno>
+        <nif>59325948R</nif>
+        <resultado>Apto</resultado>
+        <observaciones>El alumno tiene <anhos>21</anhos>años y vive en <poblacion>Torremolinos</poblacion></observaciones>
+        <mac>F3:9C:19:9F:1B:37</mac>
+    </alumno>
+    <alumno>
+        <nif>14824607A</nif>
+        <resultado>Apto</resultado>
+        <observaciones>El alumno tiene <anhos>18</anhos>años y vive en <poblacion>Oropesa</poblacion></observaciones>
+        <ip>103.255.44.83</ip>
+    </alumno>
+    <alumno>
+        <nif>47137769M</nif>
+        <resultado>No Apto</resultado>
+        <mac>7D:B5:12:A1:12:D8</mac>
+    </alumno>
+    <alumno>
+        <nif>56687519V</nif>
+        <resultado>Apto</resultado>
+        <observaciones>El alumno tiene <anhos>20</anhos>años y vive en <poblacion>La Gomera</poblacion></observaciones>
+        <mac>56:FE:45:CA:45:12</mac>
+    </alumno>
+    <alumno>
+        <nif>02111623Q</nif>
+        <resultado>No Apto</resultado>
+        <ip>133.137.33.15</ip>
+    </alumno>
+</practicas>
